@@ -71,7 +71,7 @@ const BlogSection = () => {
                       <IonIcon icon={calendar} />
                       <time datetime="2022-04-27">{post.date}</time>
                     </div>
-                    <a href="" className="read-more-btn">
+                    <a href="/" className="read-more-btn">
                       Read More
                     </a>
                   </div>
