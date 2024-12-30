@@ -1,27 +1,13 @@
-import "../src/assets/css/style.css"
-import About from "./components/about/About";
-import BlogSection from "./components/blog/Blog";
-import CtaSection from "./components/CTA/CTA";
-import Features from "./components/features/Features";
-import Footer from "./components/footer/Footer";
-import Header from "./components/header/Header";
-import Hero from "./components/home/Home";
-import Property from "./components/property/Property";
-import Service from "./components/service/Service";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home1 from "./page/Home1";
 
 function App() {
   return (
-    <>
-      <Header />
-      <Hero />
-      <About />
-      <Service />
-      <Property />
-      <Features />
-      <BlogSection />
-      <CtaSection />
-      <Footer/>
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home1 />} />
+      </Routes>
+    </Router>
   );
 }
 
