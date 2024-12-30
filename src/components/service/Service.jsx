@@ -1,9 +1,9 @@
 import React from "react";
 import { IonIcon } from "@ionic/react";
 import { arrowForwardOutline } from "ionicons/icons";
-import service1 from "../assets/images/service-1.png"
-import service2 from "../assets/images/service-2.png"
-import service3 from "../assets/images/service-3.png"
+import service1 from "../../assets/images/service-1.png"
+import service2 from "../../assets/images/service-2.png"
+import service3 from "../../assets/images/service-3.png"
 const Service = () => {
   const services = [
     {
@@ -44,12 +44,12 @@ const Service = () => {
                 </div>
 
                 <h3 className="h3 card-title">
-                  <a href="#">{service.title}</a>
+                  <a href="">{service.title}</a>
                 </h3>
 
                 <p className="card-text">{service.description}</p>
 
-                <a href="#" className="card-link">
+                <a href="" className="card-link">
                   <span>{service.linkText}</span>
                   <IonIcon icon={arrowForwardOutline} />{" "}
                 </a>

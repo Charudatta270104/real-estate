@@ -7,7 +7,7 @@ import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import Hero from "./components/home/Home";
 import Property from "./components/property/Property";
-import Service from "./components/Service";
+import Service from "./components/service/Service";
 
 function App() {
   return (

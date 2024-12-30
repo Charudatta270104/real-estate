@@ -49,20 +49,20 @@ const BlogSection = () => {
                   <div className="blog-content-top">
                     <ul className="card-meta-list">
                       <li>
-                        <a href="#" className="card-meta-link">
+                        <a href="" className="card-meta-link">
                           <IonIcon icon={person} />
                           <span>by: {post.author}</span>
                         </a>
                       </li>
                       <li>
-                        <a href="#" className="card-meta-link">
+                        <a href="" className="card-meta-link">
                           <IonIcon icon={pricetags} />
                           <span>{post.category}</span>
                         </a>
                       </li>
                     </ul>
                     <h3 className="h3 blog-title">
-                      <a href="#">{post.title}</a>
+                      <a href="">{post.title}</a>
                     </h3>
                   </div>
 
@@ -71,7 +71,7 @@ const BlogSection = () => {
                       <IonIcon icon={calendar} />
                       <time datetime="2022-04-27">{post.date}</time>
                     </div>
-                    <a href="#" className="read-more-btn">
+                    <a href="" className="read-more-btn">
                       Read More
                     </a>
                   </div>

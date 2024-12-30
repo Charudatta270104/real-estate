@@ -92,7 +92,7 @@ const Property = () => {
             <li key={property.id}>
               <div className="property-card">
                 <figure className="card-banner">
-                  <a href="#">
+                  <a href="">
                     <img
                       src={property.image}
                       alt={property.title}
@@ -127,7 +127,7 @@ const Property = () => {
                     <strong>{property.price}</strong>
                   </div>
                   <h3 className="h3 card-title">
-                    <a href="#">{property.title}</a>
+                    <a href="">{property.title}</a>
                   </h3>
                   <p className="card-text">{property.description}</p>
                   <ul className="card-list">
@@ -160,7 +160,7 @@ const Property = () => {
                     </figure>
                     <div>
                       <p className="author-name">
-                        <a href="#">{property.author}</a>
+                        <a href="">{property.author}</a>
                       </p>
                       <p className="author-title">{property.authorTitle}</p>
                     </div>
