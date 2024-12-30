@@ -30,7 +30,7 @@ const Header = () => {
             </li>
 
             <li>
-              <a href="#" className="header-top-link">
+              <a href="/" className="header-top-link">
                 <IonIcon icon={locationOutline} />
                 <address>10/A, TGN, Pune</address>
               </a>
@@ -40,25 +40,25 @@ const Header = () => {
           <div className="wrapper">
             <ul className="header-top-social-list">
               <li>
-                <a href="#" className="header-top-social-link">
+                <a href="/" className="header-top-social-link">
                   <IonIcon icon={logoFacebook} />
                 </a>
               </li>
 
               <li>
-                <a href="#" className="header-top-social-link">
+                <a href="/" className="header-top-social-link">
                   <IonIcon icon={logoTwitter} />
                 </a>
               </li>
 
               <li>
-                <a href="#" className="header-top-social-link">
+                <a href="/" className="header-top-social-link">
                   <IonIcon icon={logoInstagram} />
                 </a>
               </li>
 
               <li>
-                <a href="#" className="header-top-social-link">
+                <a href="/" className="header-top-social-link">
                   <IonIcon icon={logoPinterest} />
                 </a>
               </li>
@@ -71,13 +71,13 @@ const Header = () => {
 
       <div className="header-bottom">
         <div className="container">
-          <a href="#" className="logo">
+          <a href="/" className="logo">
             <img src={logo} alt="Homeverse logo" />
           </a>
 
           <nav className="navbar" data-navbar>
             <div className="navbar-top">
-              <a href="#" className="logo">
+              <a href="/" className="logo">
                 <img src={logo} alt="Homeverse logo" />
               </a>
 

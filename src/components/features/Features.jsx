@@ -10,7 +10,7 @@ import {
   homeOutline,
   footballOutline,
   arrowForwardOutline,
-} from "ionicons/icons"; 
+} from "ionicons/icons";
 
 const Features = () => {
   const amenities = [
@@ -32,7 +32,7 @@ const Features = () => {
         <ul className="features-list">
           {amenities.map((amenity, index) => (
             <li key={index}>
-              <a href="#" className="features-card">
+              <a href="/" className="features-card">
                 <div className="card-icon">
                   <IonIcon icon={amenity.icon} />
                 </div>

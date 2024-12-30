@@ -9,14 +9,14 @@ import {
   logoLinkedin,
   logoYoutube,
 } from "ionicons/icons";
-import logolight from "../../assets/images/logo-light.png"
+import logolight from "../../assets/images/logo-light.png";
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-top">
         <div className="container">
           <div className="footer-brand">
-            <a href="#" className="logo">
+            <a href="/" className="logo">
               <img src={logolight} alt="Homeverse logo" />
             </a>
             <p className="section-text">
@@ -25,7 +25,7 @@ const Footer = () => {
             </p>
             <ul className="contact-list">
               <li>
-                <a href="#" className="contact-link">
+                <a href="/" className="contact-link">
                   <IonIcon icon={locationOutline} />
                   <address>Pune, Maharashtra, India</address>
                 </a>
@@ -45,22 +45,22 @@ const Footer = () => {
             </ul>
             <ul className="social-list">
               <li>
-                <a href="#" className="social-link">
+                <a href="/" className="social-link">
                   <IonIcon icon={logoFacebook} />
                 </a>
               </li>
               <li>
-                <a href="#" className="social-link">
+                <a href="/" className="social-link">
                   <IonIcon icon={logoTwitter} />
                 </a>
               </li>
               <li>
-                <a href="#" className="social-link">
+                <a href="/" className="social-link">
                   <IonIcon icon={logoLinkedin} />
                 </a>
               </li>
               <li>
-                <a href="#" className="social-link">
+                <a href="/" className="social-link">
                   <IonIcon icon={logoYoutube} />
                 </a>
               </li>
@@ -73,32 +73,32 @@ const Footer = () => {
                 <p className="footer-list-title">Company</p>
               </li>
               <li>
-                <a href="#" className="footer-link">
+                <a href="/" className="footer-link">
                   About
                 </a>
               </li>
               <li>
-                <a href="#" className="footer-link">
+                <a href="/" className="footer-link">
                   Blog
                 </a>
               </li>
               <li>
-                <a href="#" className="footer-link">
+                <a href="/" className="footer-link">
                   All Products
                 </a>
               </li>
               <li>
-                <a href="#" className="footer-link">
+                <a href="/" className="footer-link">
                   Locations Map
                 </a>
               </li>
               <li>
-                <a href="#" className="footer-link">
+                <a href="/" className="footer-link">
                   FAQ
                 </a>
               </li>
               <li>
-                <a href="#" className="footer-link">
+                <a href="/" className="footer-link">
                   Contact us
                 </a>
               </li>
@@ -109,32 +109,32 @@ const Footer = () => {
                 <p className="footer-list-title">Services</p>
               </li>
               <li>
-                <a href="#" className="footer-link">
+                <a href="/" className="footer-link">
                   Order tracking
                 </a>
               </li>
               <li>
-                <a href="#" className="footer-link">
+                <a href="/" className="footer-link">
                   Wish List
                 </a>
               </li>
               <li>
-                <a href="#" className="footer-link">
+                <a href="/" className="footer-link">
                   Login
                 </a>
               </li>
               <li>
-                <a href="#" className="footer-link">
+                <a href="/" className="footer-link">
                   My account
                 </a>
               </li>
               <li>
-                <a href="#" className="footer-link">
+                <a href="/" className="footer-link">
                   Terms & Conditions
                 </a>
               </li>
               <li>
-                <a href="#" className="footer-link">
+                <a href="/" className="footer-link">
                   Promotional Offers
                 </a>
               </li>
@@ -145,32 +145,32 @@ const Footer = () => {
                 <p className="footer-list-title">Customer Care</p>
               </li>
               <li>
-                <a href="#" className="footer-link">
+                <a href="/" className="footer-link">
                   Login
                 </a>
               </li>
               <li>
-                <a href="#" className="footer-link">
+                <a href="/" className="footer-link">
                   My account
                 </a>
               </li>
               <li>
-                <a href="#" className="footer-link">
+                <a href="/" className="footer-link">
                   Wish List
                 </a>
               </li>
               <li>
-                <a href="#" className="footer-link">
+                <a href="/" className="footer-link">
                   Order tracking
                 </a>
               </li>
               <li>
-                <a href="#" className="footer-link">
+                <a href="/" className="footer-link">
                   FAQ
                 </a>
               </li>
               <li>
-                <a href="#" className="footer-link">
+                <a href="/" className="footer-link">
                   Contact us
                 </a>
               </li>
@@ -182,7 +182,7 @@ const Footer = () => {
       <div className="footer-bottom">
         <div className="container">
           <p className="copyright">
-            &copy; 2024 <a href="#">Charudatta Warke</a>. All Rights Reserved
+            &copy; 2024 <a href="/">Charudatta Warke</a>. All Rights Reserved
           </p>
         </div>
       </div>
